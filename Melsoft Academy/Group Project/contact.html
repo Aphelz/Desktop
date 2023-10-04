@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Testimonials - HairOnTap</title>
+  <title>Contact - HairOnTap</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -55,14 +55,15 @@
             <ul>
               <li><a href="about.html">About</a></li>
               <li><a href="team.html">Team</a></li>
-              <li><a href="testimonials.html" class="active">Testimonials</a></li>
+              <li><a href="testimonials.html">Testimonials</a></li>
             </ul>
           </li>
           <li><a href="services.html">Services</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="pricing.html">Pricing</a></li>
+         
 
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
           <li><a href="index.html" class="getstarted">Book Now</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -78,104 +79,81 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Testimonials</h2>
+          <h2>Contact</h2>
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li>Testimonials</li>
+            <li>Contact</li>
           </ol>
         </div>
 
       </div>
     </section><!-- End Breadcrumbs -->
 
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
       <div class="container">
 
-        <div class="row">
+        <div>
+          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+        </div>
 
-          <div class="col-lg-6">
-            <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-              <h3>Charl Stevens</h3>
-              <h4>Ceo &amp; Founder</h4>
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                I cannot express enough in words how much I appreciate HairOnTap and the wonderful work they do. I recommend them to everyone because they truly know and care about what they do. Always punctual and reliable
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
+        <div class="row mt-5">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>50 Witney Street, Gauteng, South Africa</p>
+              </div>
+
+              <div class="email">
+                <i><i class="bi bi-envelope-at"></i></i>
+                <h4>Email:</h4>
+                <p>info@hairontap.co.za</p>
+              </div>
+
+              <div class="phone">
+                <i><i class="bi bi-telephone"></i></i>
+                <h4>Call:</h4>
+                <p>+2710 003 9506</p>
+              </div>
+
             </div>
+
           </div>
 
-          <div class="col-lg-6">
-            <div class="testimonial-item mt-4 mt-lg-0">
-              <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-              <h3>Sara Wilsson</h3>
-              <h4>Model</h4>
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                HairOnTap are my only trusted hair stylists, so I knew I was in good hands when I had them do my hair. All I can say is these people are ARTISTS.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-            </div>
-          </div>
+          <div class="col-lg-8 mt-5 mt-lg-0">
 
-          <div class="col-lg-6">
-            <div class="testimonial-item mt-4">
-              <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-              <h3>Jena Karlis</h3>
-              <h4>Actress</h4>
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                "Exceptional Service from Exceptional people."Highly recommended
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-            </div>
-          </div>
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
 
-          <div class="col-lg-6">
-            <div class="testimonial-item mt-4">
-              <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-              <h3>Matt Brandon</h3>
-              <h4>Freelancer</h4>
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                 The HairOnTap team is great, it is like inviting old friends to come to your house.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-            <div class="testimonial-item mt-4">
-              <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-              <h3>John Larson</h3>
-              <h4>Digital Account Manager</h4>
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Love booking HairOnTap for my hair, always friendly and on time, and you always leave me with great looking hair
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-            <div class="testimonial-item mt-4">
-              <img src="assets/img/testimonials/testimonials-6.jpg" class="testimonial-img" alt="">
-              <h3>Emily Harison</h3>
-              <h4>Financial Director</h4>
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Perfection is by far one of the best retreats around, professional in every aspect but friendly too. Asive and her dedicated team will do their best to meet your needs and give you your ultimate treatment. Massages are a must and worth every penny. Highly worth a booking!
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-            </div>
           </div>
 
         </div>
 
       </div>
-    </section><!-- End Testimonials Section -->
+    </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
 
@@ -191,9 +169,7 @@
               <p>
                 50 Witney Street <br>
                 Gauteng, South Africa<br><br>
-                <strong><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
-                  <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-                </svg></strong> +27 011 003 9506<br>
+                <strong><i class="bi bi-telephone"></i></strong> +2701 003 9506<br>
                 <strong><i class="bi bi-envelope-at"></i></strong> info@HairOnTap.co.za<br>
               </p>
               <div class="social-links mt-3">
